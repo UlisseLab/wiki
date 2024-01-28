@@ -1,5 +1,6 @@
 +++
 title = "Introduzione"
+archetype = "home"
 +++
 
 Benvenuto nella wiki del laboratorio Ulisse!

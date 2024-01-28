@@ -1,5 +1,5 @@
 module github.com/UlisseLab/wiki
 
-go 1.21.6
+go 1.21
 
-require github.com/McShelby/hugo-theme-relearn v0.0.0-20240127110639-eaabbfd6ef20 // indirect
+require github.com/McShelby/hugo-theme-relearn v0.0.0-20231103223729-32a23dbf4400 // indirect

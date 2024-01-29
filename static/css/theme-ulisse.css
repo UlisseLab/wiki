@@ -1,12 +1,9 @@
 @import "theme-relearn-dark.css";
 
-body {
-  font-family: "Cantarell", sans-serif;
-}
-
 :root {
   --PRIMARY-color: #da6956;
   --MENU-SECTION-ACTIVE-CATEGORY-color: var(--PRIMARY-color);
   --CODE-INLINE-color: var(--PRIMARY-color);
   --MENU-HOME-LINK-color: white;
+  --MAIN-font: "Cantarell", sans-serif;
 }

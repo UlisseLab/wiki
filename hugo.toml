@@ -2,6 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'it-IT'
 title = 'Ulisse wiki'
 
+canonifyURLs = true
+relativeURLs = true
+
 
 [module]
 [[module.imports]]
@@ -9,3 +12,8 @@ path = 'github.com/McShelby/hugo-theme-relearn'
 
 [params]
 themeVariant = "ulisse"
+
+[outputs]
+home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE", "PRINT"]
+section = ["HTML", "RSS", "PRINT"]
+page = ["HTML", "RSS", "PRINT"]

@@ -8,8 +8,10 @@ title = "pwncollege"
 
 ## Moduli
 
-- [Mod1 - Program misuse](/corsi/pwncollege/mod1)
-- [mod2 - Program Interaction](/corsi/pwncollege/mod2)
-- [Mod3 - Assembly Crash Course](/corsi/pwncollege/mod3)
-- [Mod4 - Shellcode Injection](/corsi/pwncollege/mod4)
-- [Mod5 - Sandboxing](/corsi/pwncollege/mod5)
+|                  | Argomenti                                                                         |
+| ---------------- | --------------------------------------------------------------------------------- |
+| [Modulo 1](mod1) | Introduzione a UNIX, privilege escalation, challenge su `suid`                    |
+| [Modulo 2](mod2) | Linea di comando, file binari, caricamento ed esecuzione di software su Linux     |
+| [Modulo 3](mod3) | Architettura dei calcolatori, assembly, funzionamento CPU, control flow, syscalls |
+| [Modulo 4](mod4) | Shellcode injection                                                               |
+| [Modulo 5](mod5) | Sandboxing, `chroot`, `seccomp`                                                   |

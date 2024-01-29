@@ -12,6 +12,7 @@ path = 'github.com/McShelby/hugo-theme-relearn'
 
 [params]
 themeVariant = "ulisse"
+editURL = "https://github.com/UlisseLab/wiki/edit/main/content/"
 
 [outputs]
 home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE", "PRINT"]

@@ -119,7 +119,7 @@ I tool utilizzati dal nostro team sono quelli disponibili su [GitHub](https://gi
 ## Link utili
 
 - <https://2023.faustctf.net/information/attackdefense-for-beginners/>
-- Statistiche degli ultimi anni: <https://cyberchallenge.it/attack-defense/2023>
+- Statistiche degli ultimi anni: <https://cyberchallenge.it/attack-defense/2024>
 
 ### Tool di difesa
 

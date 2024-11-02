@@ -20,9 +20,10 @@ Alcune volte le challenge A/D sono simili a quelle Jeopardy, in quanto i servizi
 - note a tutti, quindi il gioco si basa sulla capacità di difendere il servizio e sulla capacità di attaccare gli altri servizi
 - in un contesto di "glue code" (ad es. un servizio che si connette ad un altro servizio) e quindi la vulnerabilità è data dalla configurazione del servizio
 
-{{% notice style="info" title="Esempio" %}}
-Un servizio che si connette a un database con password predefinita è a rischio se il database è accessibile dall'esterno. Le password predefinite sono uguali per tutti, rendendo il sistema vulnerabile.
-{{% /notice %}}
+> [!INFO] Esempio
+> Un servizio che si connette a un database con password predefinita è a rischio se il database è accessibile dall'esterno. Le password predefinite sono uguali per tutti, rendendo il sistema vulnerabile.
+
+Inoltre, ogni tanto gli organizzatori si divertono a creare tecnologie nuove e mai viste prima, come ad esempio l'architettura cLEMENCy.
 
 > _In 2017, the Legitimate Business Syndicate came up with their very own CPU architecture called cLEMENCy: a middle-endian with 9 bits bytes CPU. With its specifications released only 24h before the beginning of the CTF, it was designed with the explicit goals of both surprising the teams, and leveling the playing field by breaking all their tools._
 
@@ -48,9 +49,8 @@ Ha il compito di attaccare i servizi vulnerabili dei team avversari e **recupera
 
 Le flag trovate devono essere **inviate al gameserver**, che le valida e restituisce una risposta (OK, DUP, INV, ERR, ...).
 
-{{% notice style="info" title="Flag scadute" %}}
-Le flag scadono dopo un certo numero di round. Se non vengono inviate al gameserver entro il tempo limite, non verranno più accettate.
-{{% /notice %}}
+> [!NOTE] Flag scadute
+> Le flag scadono dopo un certo numero di round. Se non vengono inviate al gameserver entro il tempo limite, non verranno più accettate.
 
 ### Il difensore
 
@@ -62,7 +62,7 @@ Può farlo per mezzo di patch, WAF, firewall, ...
 
 ## Regole di gioco
 
-Il gioco si svolge in round di `n` secondi (di solito 60 o 120), durante i quali un l'arbitro
+Il gioco si svolge in round di _N_ secondi (di solito 60 o 120), durante i quali un l'arbitro
 
 - aggiunge nuove flag alla macchina vulnerabile
 - controlla l'**integrità** (SLA) dei servizi interagendo con essi e recuperando le flag attraverso accessi legittimi.
@@ -94,23 +94,13 @@ Il grado di mascheramento può variare da gara a gara, ma di solito è molto alt
 - Player -> VM
 - CheckSystem -> VM
 
-### SSH tunneling
+## SSH tunneling
 
-Spesso è desiderabile esporre dei servizi che non sono direttamente accessibili dall'esterno. Questo per evitare che gli attaccanti possano accedere al servizio se il servizio non è dotato di autenticazione ed in generale per evitare che il servizio sia attaccato.
+Spesso è desiderabile esporre dei servizi che non siano direttamente accessibili dall'esterno. Per fare ciò è possibile utilizzare il **tunneling SSH**.
 
-Per fare ciò si può usare il **tunneling SSH**.
+Il tunneling SSH permette di creare un **tunnel sicuro tra due porte di due macchine in rete**, in modo che il traffico tra le due macchine sia crittografato e autenticato.
 
-{{% notice style="info" title="Tunneling SSH" %}}
-Il tunneling SSH permette di creare un tunnel sicuro tra due porte di due macchine in rete, in modo che il traffico tra le due macchine sia crittografato e autenticato.
-{{% /notice %}}
-
-### Esempio
-
-```bash
-ssh -L 8080:localhost:80 user@remote
-```
-
-Dove `8080` è la porta locale, `localhost` è l'host su cui è in ascolto il servizio remoto (ad es. il servizio è stato avviato con `--bind-address=localhost`) e `80` è la porta remota su cui è in ascolto il servizio.
+Per maggiori informazioni, consulta la pagina dedicata al [tunneling SSH](risorse/ssh/#ssh-tunneling).
 
 ## Tool
 

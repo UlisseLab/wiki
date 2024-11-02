@@ -15,6 +15,6 @@ themeVariant = "ulisse"
 editURL = "https://github.com/UlisseLab/wiki/edit/main/content/"
 
 [outputs]
-home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE", "PRINT"]
+home = ["HTML", "RSS", "PRINT"]
 section = ["HTML", "RSS", "PRINT"]
 page = ["HTML", "RSS", "PRINT"]

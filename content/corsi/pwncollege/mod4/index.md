@@ -4,7 +4,7 @@ title = "Mod 4: Shellcode Injection"
 
 ## Appunti lezioni
 
-{{< attachments />}}
+{{% resources pattern="files/" /%}}
 
 ### Intro
 

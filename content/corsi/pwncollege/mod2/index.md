@@ -4,7 +4,7 @@ title="Mod 2: Program Interaction"
 
 ## Appunti lezioni
 
-{{% attachments /%}}
+{{% resources pattern="files/" /%}}
 
 ### Linux command line
 

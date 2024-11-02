@@ -4,7 +4,7 @@ title = "Mod 5: Sandboxing"
 
 ## Appunti lezioni
 
-{{< attachments />}}
+{{% resources pattern="files/" /%}}
 
 ### Introduction
 

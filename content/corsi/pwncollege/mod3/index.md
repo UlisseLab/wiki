@@ -4,7 +4,7 @@ title = "Mod 3: Assembly Crash Course"
 
 ## Appunti lezioni
 
-{{% attachments /%}}
+{{% resources pattern="files/" /%}}
 
 ### Lezione 0: Computer Architecture
 

@@ -2,7 +2,7 @@
 title = "Mod 1: Program Misuse"
 +++
 
-{{% attachments /%}}
+{{% resources pattern="files/" /%}}
 
 ### Privilege escalation
 

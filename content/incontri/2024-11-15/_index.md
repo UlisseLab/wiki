@@ -4,6 +4,7 @@ date = 2024-11-15
 draft = false
 publishdate = 2024-11-14
 author = "Renato"
+description = "Buffer Overflow, C internals e pwntools"
 +++
 
 

@@ -1,5 +1,5 @@
 +++
-title = "11 Novembre 2024"
+title = "15 Novembre 2024"
 date = 2024-11-15
 draft = false
 publishdate = 2024-11-14

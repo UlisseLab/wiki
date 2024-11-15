@@ -83,7 +83,7 @@ int main() {
 
 Se provate a compilare questo programma normalmente, il compilatore si arrabbierà (con buone ragioni). **Perchè**?
 
-{{% resources pattern="ex1-gets/" /%}}
+{{% resources pattern="ex1-gets/" style="primary" /%}}
 
 ### che succede se passo più di 64 caratteri?
 

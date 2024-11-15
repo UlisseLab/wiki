@@ -1,9 +1,5 @@
-baseURL = 'https://example.org/'
 languageCode = 'it-IT'
 title = 'Ulisse wiki'
-
-canonifyURLs = true
-relativeURLs = true
 
 
 [module]

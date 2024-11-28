@@ -1,6 +1,7 @@
 +++
 title = "22 Novembre 2024"
 description = "Basi di Web Security"
+date = 2024-11-22
 +++
 
 ## Parte 0: Accesso alla piattaforma

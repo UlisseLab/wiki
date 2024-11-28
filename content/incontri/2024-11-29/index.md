@@ -45,6 +45,33 @@ Durante questa lezione, ci concentreremo su iptables.
 
 ### iptables
 
+- [Schema di iptables](nfk-traversal.pdf)
+
+#### Comandi utili
+
+```bash
+iptables -L -n -v  # Mostra le regole del firewall
+iptables -F        # Pulisce tutte le regole
+
+iptables -P INPUT DROP      # Imposta la policy di default per il traffico in ingresso a DROP
+iptables -P OUTPUT ACCEPT   # Imposta la policy di default per il traffico in uscita ad ACCEPT
+iptables -P FORWARD DROP    # Imposta la policy di default per il traffico di transito a DROP
+
+
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT   # Consente il traffico TCP sulla porta 22
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT   # Consente il traffico TCP sulla porta 80
+
+iptables -D INPUT -p tcp --dport 22 -j ACCEPT   # Rimuove la regola per la porta 22
+iptables -D INPUT 1                             # Rimuove la prima regola nella catena INPUT
+
+iptables -A INPUT -s x.x.x.x -j DROP            # Blocca il traffico proveniente dall'indirizzo IP x.x.x.x
+iptables -A INPUT -s x.x.x.x -j REJECT          # Rifiuta il traffico proveniente dall'indirizzo IP x.x.x.x
+
+iptables-save > /etc/iptables/rules.v4          # Salva le regole in un file
+iptables-restore < /etc/iptables/rules.v4       # Carica le regole da un file
+
+```
+
 ### firewalld
 
 [FirewallD][firewalld] è un software di gestione del firewall per Linux che fornisce un interfaccia D-Bus per impostare regole di firewall.

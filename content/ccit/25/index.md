@@ -24,9 +24,11 @@ Utilizzeremo il materiale didattico disponibile sulla [piattaforma CyberChalleng
 > [!NOTE] Attenzione!
 > Il calendario delle lezioni è in continuo aggiornamento. Controllate regolarmente questa pagina e il gruppo Telegram per eventuali modifiche.
 
-| Data                  | Argomento                                                         | Tutor       |
-| --------------------- | ----------------------------------------------------------------- | ----------- |
-| 2025-02-12            | Introduzione a CyberChallenge e introduzione a Network Security 0 | Eyad,Renato |
-| 2025-02-14            | Laboratorio: introduzione a Network Security 0                    | Eyad        |
-| 2025-02-18 alle 15:00 | Web Security 1                                                    | Alan,Renato |
-| 2025-02-21 alle 14:30 | Laboratorio: Web Security 1                                       | Renato      |
+| Data                  | Argomento                                                         | Tutor                  |
+| --------------------- | ----------------------------------------------------------------- | ---------------------- |
+| 2025-02-12            | Introduzione a CyberChallenge e introduzione a Network Security 0 | Eyad e Renato          |
+| 2025-02-14            | Laboratorio: introduzione a Network Security 0                    | Eyad                   |
+| 2025-02-18 alle 15:00 | Web Security 1                                                    | Alan e Renato          |
+| 2025-02-21 alle 14:30 | Laboratorio: Web Security 1                                       | Renato                 |
+| 2025-02-25 alle 17:00 | Software Security 1                                               | Renato e Giacomo       |
+| 2025-02-28 alle 15:00 | Laboratorio: Software Security 1                                  | Renato, Giacomo e Alan |

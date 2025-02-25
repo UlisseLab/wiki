@@ -12,8 +12,11 @@ Le lezioni di CyberChallenge 2025 si terranno:
 - ogni martedì dalle ore 17:00 alle ore 19:00 - online, su Teams (link inviato settimanalmente sul gruppo Telegram)
 - ogni venerdì dalle ore 15:00 alle ore 18:30 - [laboratorio Ercolani](https://disi.unibo.it/it/dipartimento/sedi-e-spazi/laboratori-didattici/laboratori-ercolani)
 
-> [!INFO]
-> Le lezioni in laboratorio verranno tenute esclusivamente in presenza. Le lezioni online saranno registrate e rese disponibili sul gruppo Telegram.
+> [!INFO] Informazioni importanti per partecipare alle lezioni:
+>
+> - Le lezioni online saranno **registrate** e rese disponibili sul gruppo Telegram
+>   - Prenderemo comunque le presenze!
+> - Le lezioni in laboratorio verranno tenute **esclusivamente in presenza**
 
 ## Materiale didattico
 

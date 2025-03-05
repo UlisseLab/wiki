@@ -3,7 +3,30 @@ title = "Lezioni"
 weight = 25
 +++
 
-## 2025-02-25 - Software Security 1
+## 2025-03-04 - Cryptography 0-1
+
+### 📙 Teoria
+
+- Crypto 0: Aritmetica modulare, numeri primi, one-way functions
+- Crypto 1: Cifrari classici, OTP, xor, modelli di attaccanti
+
+### 💪 Challenges
+
+- Introduction - Cryptography
+- Cryptography 1
+
+### 🔗 Materiale utile
+
+- https://cryptohack.org/ (piattaforma con challenge)
+- https://cyberchef.org/ (tool)
+
+### 💣 Challenge consigliate
+
+- https://ctf.cyberchallenge.it/challenges#challenge-56
+- https://ctf.cyberchallenge.it/challenges#challenge-58
+- https://ctf.cyberchallenge.it/challenges#challenge-52
+
+## 2025-02-25 - Software Security 0
 
 > [!NOTE] Torna più tardi per vedere il materiale della lezione!
 
@@ -12,7 +35,10 @@ weight = 25
 ### 📙 Teoria
 
 - Skippato il modulo Web Security 1.1 (HTTP e Overview generale) perchè fatta nelle lezioni di NS
-- Completati (a livello prettamente teorico) i moduli 1.2 e 1.3, argomenti : File Disclosure (path traversal), SSRF e Command Injection 💉
+- Completati (a livello prettamente teorico) i moduli 1.2 e 1.3:
+  - File Disclosure (path traversal)
+  - SSRF
+  - Command Injection
 
 ### 🔗 Materiale utile
 

@@ -3,6 +3,40 @@ title = "Lezioni"
 weight = 25
 +++
 
+## 2025-03-18 - Network Security 1-2
+
+### 📙 Teoria
+
+- Ripasso di ISO/OSI, dispositivi di rete, protocolli di rete, NAT
+
+- **Intercettazione del traffico:**
+
+  - Sniffing
+  - ARP poisoning
+
+- **Analisi del traffico:**
+
+  - tcpdump e il formato PCAP
+  - Dissectors in Wireshark
+  - Intrusion Detection Systems (IDS)
+
+- **Protezione del traffico:**
+
+  - Firewall e VLAN
+  - Intrusion Prevention Systems (IPS)
+  - Framework netfilter: iptables, nftables, nfqueue
+
+- Suricata: modalità offline (IDS), modalità online (IPS)
+
+## 💪 Challenges
+
+- Network Security 0 (Docker)
+- Network Security 1-2
+
+## 2025-03-11 - Software Security 1
+
+> [!NOTE] Torna più tardi per vedere il materiale della lezione!
+
 ## 2025-03-04 - Cryptography 0-1
 
 ### 📙 Teoria
